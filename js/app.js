@@ -24,15 +24,25 @@ productos.forEach((product) => {
     comprar.addEventListener("click", () => {
         carrito.push({
             id : product.id,
-            img : product.nombre,
+            img : product.img,
             nombre : product.nombre,
             precio : product.precio,
         });
         console.log(carrito);
     });
+    comprar.addEventListener("click", () => {
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Has añadido el producto al carrito',
+            showConfirmButton: false,
+            timer: 1300,
+            background: '#000', 
+        });
+    });
 });
 
-verCarrito,addEventListener("click", () => {
+verCarrito.addEventListener("click", () => {
     modalContainer.innerHTML = "";
     modalContainer.style.display = "flex";
     const modalHeader = document.createElement("div");
