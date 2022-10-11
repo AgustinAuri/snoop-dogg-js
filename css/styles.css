@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: rgb(48, 48, 48);
 }
 /* navBar */
 .nav-container {
@@ -42,6 +43,11 @@ body {
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
 }
 
 /* banner styles  */
@@ -169,4 +175,34 @@ body {
     padding: 20px;
     text-align: center;
     padding-top: 20px;
+}
+
+/* MAIN */
+
+.titulo-main {
+    color: white;
+}
+
+.main-letra {
+    color: white;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1b1b1b;
+}
+
+.titulo-footer {
+    color: white;
+    padding-left: 12px;
+}
+
+.texto-footer {
+    color: white;
+}
+
+.derechos-footer {
+    color: white;
+    padding-left: 12px;
 }

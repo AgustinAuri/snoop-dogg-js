@@ -2,6 +2,7 @@ const shopContet = document.getElementById("shopContent");
 const verCarrito = document.getElementById("verCarrito");
 const modalContainer = document.getElementById("modal-container");
 
+
 let carrito = [];
 
 productos.forEach((product) => {
