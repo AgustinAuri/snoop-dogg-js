@@ -21,8 +21,9 @@ body {
     justify-self: start;
     margin-left: 20px;
     color: #fff;
-    margin-top: 4vh;
     cursor: pointer;
+    height: 60px;
+    width: 250px;
 }
 
 .ver-carrito {

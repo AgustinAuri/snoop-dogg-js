@@ -3,8 +3,7 @@ const productos = [
         id: 1,
         nombre: "remera",
         precio: 2500,
-        img:
-            "https://snoop-dogg-29295.netlify.app/recursos/remera_snoop_negra_mujer.jpg",
+        img:"https://snoop-dogg-29295.netlify.app/recursos/remera_snoop_negra_mujer.jpg",
     },
 
     { 
