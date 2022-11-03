@@ -4,6 +4,7 @@ const productos = [
         nombre: "remera",
         precio: 2500,
         img:"https://snoop-dogg-29295.netlify.app/recursos/remera_snoop_negra_mujer.jpg",
+        cantidad: 1,
     },
 
     { 
@@ -12,6 +13,7 @@ const productos = [
         precio: 7500,
         img:
             "https://snoop-dogg-29295.netlify.app/recursos/pantalones-snoop.jpg",
+        cantidad: 1,
     },
 
     { 
@@ -20,6 +22,7 @@ const productos = [
         precio: 750,
         img:
             "https://snoop-dogg-29295.netlify.app/recursos/articulos_del_hogar.jpg",
+        cantidad: 1,
     },
 
     {
@@ -28,6 +31,7 @@ const productos = [
         precio: 1000, 
         img:
             "https://snoop-dogg-29295.netlify.app/recursos/discos-snoop.jpg",
+        cantidad: 1,
     },
 
     {
@@ -36,5 +40,6 @@ const productos = [
         precio: 1500,
         img:
             "https://snoop-dogg-29295.netlify.app/recursos/libro_Snoop-Dogg_Fb.jpg",
+        cantidad: 1,
     },
 ];
