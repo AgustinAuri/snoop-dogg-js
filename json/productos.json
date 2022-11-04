@@ -1,7 +1,7 @@
 [
-    {"nombre":"pantalon", "precio": 10500, "id": 1, "thumbnailUrl": "https://snoop-dogg-29295.netlify.app/recursos/pantalones-snoop.jpg", "cantidad":1},
-    {"nombre":"remera", "precio":5500, "id": 2, "thumbnailUrl": "https://snoop-dogg-29295.netlify.app/recursos/remera_snoop_negra_mujer.jpg", "cantidad":1},
-    {"nombre":"libro", "precio":500, "id": 3, "thumbnailUrl": "https://snoop-dogg-29295.netlify.app/recursos/libro_Snoop-Dogg_Fb.jpg", "cantidad":1},
-    {"nombre":"disco", "precio":1500, "id": 4, "thumbnailUrl": "https://snoop-dogg-29295.netlify.app/recursos/discos-snoop.jpg", "cantidad":1},
-    {"nombre":"vela", "precio":750, "id": 5, "thumbnailUrl": "https://snoop-dogg-29295.netlify.app/recursos/articulos_del_hogar.jpg", "cantidad":1}
+    {"nombre":"pantalon", "precio": 10500, "id": 1, "imagen": "https://snoop-dogg-29295.netlify.app/recursos/pantalones-snoop.jpg", "cantidad":1},
+    {"nombre":"remera", "precio":5500, "id": 2, "imagen": "https://snoop-dogg-29295.netlify.app/recursos/remera_snoop_negra_mujer.jpg", "cantidad":1},
+    {"nombre":"libro", "precio":500, "id": 3, "imagen": "https://snoop-dogg-29295.netlify.app/recursos/libro_Snoop-Dogg_Fb.jpg", "cantidad":1},
+    {"nombre":"disco", "precio":1500, "id": 4, "imagen": "https://snoop-dogg-29295.netlify.app/recursos/discos-snoop.jpg", "cantidad":1},
+    {"nombre":"vela", "precio":750, "id": 5, "imagen": "https://snoop-dogg-29295.netlify.app/recursos/articulos_del_hogar.jpg", "cantidad":1}
 ]

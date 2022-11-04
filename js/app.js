@@ -5,11 +5,16 @@ const cantidadCarrito = document.getElementById("cantidadCarrito");
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
+
+fetch("../json/productos.json")
+.then(Response => Response.json())
+.then(productos => {
+    console.log(productos)
 productos.forEach((product) => {
     let content = document.createElement("div");
     content.className = "card";
     content.innerHTML = `
-        <img src="${product.img}">
+        <img src="${product.imagen}">
         <h3>${product.nombre}</h3>
         <p class="price">${product.precio} </p>
     `;
@@ -35,7 +40,7 @@ productos.forEach((product) => {
         } else {
         carrito.push({
             id : product.id,
-            img : product.img,
+            imagen : product.imagen,
             nombre : product.nombre,
             precio : product.precio,
             cantidad : product.cantidad,
@@ -57,6 +62,7 @@ productos.forEach((product) => {
             background: '#000', 
         });
     });
+});
 });
 
 const saveLocal = () => {
