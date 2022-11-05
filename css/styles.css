@@ -86,6 +86,8 @@ body {
 }
 
 .card {
+    display: flex;
+    align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
@@ -154,7 +156,9 @@ body {
 }
 
 .modal-header-button {
+    display: flex;
     cursor: pointer;
+    
 }
 
 .modal-container > .modal-content {
@@ -182,6 +186,11 @@ body {
 
 .titulo-main {
     color: white;
+}
+
+.titulo-main-2 {
+    color: white;
+    text-align: center;
 }
 
 .main-letra {

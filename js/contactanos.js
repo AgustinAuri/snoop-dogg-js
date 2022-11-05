@@ -4,17 +4,17 @@ let enviarFormulario = document.getElementById("enviarFormulario");
 enviarFormulario.addEventListener("click", () => {
     Swal.fire({
         title: 'Seguro que lo quieres enviar?',
-        text: "flksjdflkajsdh",
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Yes!'
+        cancelButtonText: 'No',
+        confirmButtonText: 'Si'
       }).then((result) => {
         if (result.isConfirmed) {
           Swal.fire(
             'Enviado',
-            'enviado',
+            'su mensaje sera contestado a la brevedad',
             'success'
           )
         }
@@ -25,13 +25,12 @@ let borrarFormulario = document.getElementById("borrarFormulario");
 
 borrarFormulario.addEventListener("click", () => {
     Swal.fire({
-        title: 'Are you sure?',
-        text: "You won't be able to revert this!",
+        title: 'Estas seguro?',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Yes, delete it!'
+        confirmButtonText: 'Si, borralo!'
       }).then((result) => {
         if (result.isConfirmed) {
           Swal.fire(

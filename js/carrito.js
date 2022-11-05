@@ -4,12 +4,12 @@ const pintarCarrito = () => {
     const modalHeader = document.createElement("div");
     modalHeader.className = "modal-header";
     modalHeader.innerHTML = `
-        <h1 class="modal-header-title">Carrito.</h1>
+        <h1 class="modal-header-title">Carrito</h1>
     `;
     modalContainer.append(modalHeader);
 
     const modalbutton = document.createElement("h1");
-    modalbutton.innerText = "x";
+    modalbutton.innerText = "❌";
     modalbutton.className = "modal-header-button";
 
     modalbutton.addEventListener("click", () => {
@@ -24,7 +24,7 @@ const pintarCarrito = () => {
         carritoContent.innerHTML = `
             <img src="${product.imagen}" alt="asd">
             <h3>${product.nombre}</h3>
-            <p>${product.precio}</p>
+            <p>$ ${product.precio}</p>
             <span class="restar"> - </span>
             <p>cantidad: ${product.cantidad}</p>
             <span class="sumar"> + </span>
@@ -62,7 +62,7 @@ const pintarCarrito = () => {
 
     const totalbuying = document.createElement("div");
     totalbuying.className = "total-content"
-    totalbuying.innerHTML = `total a pagar: ${total} $`;
+    totalbuying.innerHTML = `total a pagar : $ ${total}`;
     modalContainer.append(totalbuying) 
 };
 
